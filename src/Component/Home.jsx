@@ -1,3 +1,5 @@
+import React from "react";
+import { motion } from "framer-motion";
 function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 to-gray-900 text-white font-sans">
@@ -522,13 +524,6 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Newsletter */}
-      <section className="py-12 px-4 bg-gradient-to-r from-gray-900 to-gray-800 border-t border-gray-800">
-        <div className="container mx-auto">
-          <div className="bg-gray-800/50 backdrop-blur-md border border-gray-700 rounded-2xl p-8 md:p-12 relative overflow-hidden"></div>
         </div>
       </section>
     </div>
