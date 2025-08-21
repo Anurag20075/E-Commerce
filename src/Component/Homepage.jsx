@@ -386,7 +386,7 @@ function Homepage() {
       {/* Next: "Add an animated scroll-to-top button that appears when scrolling down" */}
       {/* Next: "Add a custom cursor effect for interactive elements" */}
 
-      <div className="absolute bottom-4 right-4 z-50 transform transition-transform duration-300 translate-y-0 hover:translate-y-2">
+      {/* <div className="absolute bottom-4 right-4 z-50 transform transition-transform duration-300 translate-y-0 hover:translate-y-2">
         <div className="bg-gray-800 rounded-lg shadow-lg shadow-purple-900/20 border border-gray-700 p-4 w-80">
           <div className="flex items-center justify-between mb-4">
             <h3 className="font-bold text-lg">Your Cart (3)</h3>
@@ -472,7 +472,7 @@ function Homepage() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
